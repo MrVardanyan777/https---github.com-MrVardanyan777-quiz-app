@@ -1,0 +1,76 @@
+.quiz__question-page_main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+
+.quiz__questionpage-mainBox {
+    width: 650px;
+    height: 450px;
+    border: 5px solid #ffa801;
+    border-radius: 15px;
+    box-shadow: -3px 0px 17px 5px rgba(201, 201, 201, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quiz__questionpage-questionNumber {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+}
+
+.quiz__questionpage-questionDifficulty {
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 10rem;
+    color: #ffffff;
+    border-radius: 20px 0 20px 20px;
+    text-align: center;
+}
+
+.quiz__questionpage-mainBox h2 {
+    font-family: var(--font-family);
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 3rem;
+    line-height: 1.5;
+}
+
+.quiz__questionpage-btnBox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.quiz__questionpage-btnBox button {
+    width: 15rem;
+    font-size: 18px;
+    font-family: var(--font-family);
+    cursor: pointer;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #d1ccc0;
+    transition: all ease-in .3s;
+}
+
+.quiz__questionpage-btnBox button:hover{
+    background-color: #aaa69d;
+}
+
